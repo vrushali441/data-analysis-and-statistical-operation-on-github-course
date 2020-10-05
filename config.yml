@@ -1,0 +1,19 @@
+title: data analysis and statistical operation on github
+description: >-
+  with the help of r and python work on restaurant dataset used  different
+  machine learning algorithm statistical operation .used regression ,clustering
+  ,SVM, navie bais algorithm etc
+template:
+  repo: data-analysis-and-statistical-operation-on-github-template
+  name: data-analysis-and-statistical-operation-on-github
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
